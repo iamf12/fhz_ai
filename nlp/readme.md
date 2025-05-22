@@ -18,4 +18,3 @@ semantic_cls = pipeline(Tasks.text_classification,'damo/nlp_structbert_sentiment
 进行情感分析分类，进行打分label类
 result = semantic_cls(input='遥遥领先，遥遥领先，遥遥领先')
 print(result)
-
